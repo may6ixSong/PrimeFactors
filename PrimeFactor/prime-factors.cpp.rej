@@ -1,0 +1,15 @@
+diff a/PrimeFactor/prime-factors.cpp b/PrimeFactor/prime-factors.cpp	(rejected hunks)
+@@ -4,5 +5,11 @@
++#include <vector>
++using namespace std;
++
+ class PrimeFactor
+ {
+ public:
+-
++	vector<int> of(int i) {
++		vector<int> result = {};
++		return result;
++	}
+ };
+\ No newline at end of file
